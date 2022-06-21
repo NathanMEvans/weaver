@@ -61,7 +61,7 @@ class GameStatsModal extends React.Component {
   shareTodaysResultsOrCopyToClipboard(todayEpochDay, startWord, endWord, score, enteredWords) {
     const todayDateString = getDateStringFromDaysSinceEpoch(todayEpochDay);
     const specialEmoji = getTodaySpecialEmoji();
-    let text = 'Weaver';
+    let text = 'Weaver (edited dictionary)';
     text += specialEmoji != null ? specialEmoji : ' ';
     text += todayDateString + '\n\n';
     const wordSize = startWord.length;
