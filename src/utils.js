@@ -22,6 +22,6 @@ export function getNumDaysSinceEpoch() {
 }
 
 export function getDateStringFromDaysSinceEpoch(daysSinceEpoch) {
-  const date = new Date((daysSinceEpoch + 1) * MS_IN_DAY);
+  const date = new Date(daysSinceEpoch * MS_IN_DAY);
   return date.toLocaleDateString();
 }
