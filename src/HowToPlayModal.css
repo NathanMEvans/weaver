@@ -1,0 +1,30 @@
+#howToPlayModalContent {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 0px 10px;
+}
+
+.howToPlayHistorySection {
+  padding-bottom: 5px;
+}
+
+.howToPlaySentenceBlock {
+  padding: 0px 10px 5px 10px;
+}
+
+.howToPlayExampleTitle {
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.howToPlayExampleSection .howToPlaySentenceBlock {
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+
+.howToPlayExampleGameRow .block {
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+}

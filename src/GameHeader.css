@@ -1,0 +1,66 @@
+.gameHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+  border-bottom: 1px solid var(--light-gray);
+  padding: 0 10px;
+}
+
+.gameHeaderLeftGroup {
+  display: flex;
+  flex-direction: row;
+  width: 70px;
+  justify-content: flex-start;
+}
+
+.gameHeaderRightGroup {
+  display: flex;
+  flex-direction: row;
+  width: 70px;
+  justify-content: flex-end;
+}
+
+.gameTitle {
+  font-size: 2.2rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.yesterdayButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.yesterdayButton svg {
+  width: 24px;
+  height: 24px;
+}
+
+.userStatsButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.userStatsButton svg {
+  width: 24px;
+  height: 24px;
+}
+
+.howToPlayButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.howToPlayButton svg {
+  width: 24px;
+  height: 24px;
+}

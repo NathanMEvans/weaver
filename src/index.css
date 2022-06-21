@@ -1,0 +1,130 @@
+:root {
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+  height: 100%;
+  --max-game-width: 500px;
+  --header-height: 50px;
+  --light-green: rgba(0, 128, 0, 0.5);
+  --light-gray: lightgray;
+  --opacity-50: rgba(255, 255, 255, 0.5);
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#app-container {
+  height: 100%;
+}
+
+#game-container {
+  height: 100%;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--max-game-width);
+  margin: 0 auto;
+  height: calc(100% - var(--header-height));
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5px 10px 5px;
+}
+
+.keyboardRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.keyboard .keyboardRow:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.button {
+  justify-content: center;
+  font-family: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  border-radius: 4px;
+  height: 60px;
+  background-color: var(--light-gray);
+  border: 0;
+  cursor: pointer;
+}
+
+.keyboardRow .button:not(:last-child) {
+  margin-right: 5px;
+}
+
+.characterButton {
+  width: 40px;
+}
+
+.keyboardSpacer {
+  width: 40px;
+}
+
+.enterButton {
+  width: 60px;
+  background-color: var(--light-green);
+}
+
+.deleteButton {
+  width: 60px;
+}
+
+.deleteButton svg {
+  width: 24px;
+  height: 24px;
+}
+
+.toast {
+  display: none;
+  position: absolute;
+  z-index: 2000;
+  left: 50%;
+  transform: translate(-50%, 0);
+  pointer-events: none;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.aboveKeyboardToast {
+  bottom: 205px;
+}
+
+#error-toast {
+  background-color: firebrick;
+  color: white;
+}
+
+#success-toast {
+  background-color: green;
+  color: white;
+}
+
+#generic-toast {
+  background-color: black;
+  color: white;
+}
+
+.belowHeaderToast {
+  top: 80px;
+}
+
+#special-message-toast {
+  background-color: black;
+  color: white;
+}

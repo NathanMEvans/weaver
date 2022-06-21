@@ -1,0 +1,28 @@
+.yesterdayModalContentContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.yesterdayOptimalText {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: gray;
+  text-align: center;
+}
+
+.yesterdayGameBoardContainer {
+  width: 100%;
+}
+
+.yesterdayGameBoardContainer .yesterdayGameBoardRow:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.yesterdayExplanation {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: gray;
+  text-align: center;
+}

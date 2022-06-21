@@ -1,0 +1,78 @@
+#gameStatsModalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todayUserStatsRow {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.historicalUserStatsRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.userStat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.userStatsBlock {
+  color: black;
+  background-color: var(--light-gray);
+}
+
+.successUserStatsBlock {
+  outline-color: green;
+  color: white;
+  background-color: green;
+}
+
+.userStatLabel {
+  padding-top: 4px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.shareTodaysScoreButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60px;
+}
+
+.shareTodaysScoreButton {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  fill: white;
+  background: rgba(0, 128, 0, 0.8);;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+}
+
+.shareButtonText {
+  margin-right: 4px;
+}
+
+.shareTodaysScoreButton svg {
+  width: 24px;
+  height: 24px;
+}
+
+.shareTodaysScoreButtonCounterDummyDiv {
+  width: 100px;
+  height: 50px;
+}
