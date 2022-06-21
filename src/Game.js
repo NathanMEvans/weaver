@@ -7,7 +7,7 @@ import {
   isAlphabetCharacter, 
   getCharacterDiffCount,
 } from './utils.js';
-import {isValidWord4} from './words4.js';
+import {isValidWord4} from './newWords4.js';
 import {isValidWord5} from './words5.js';
 import {updateUserStatsWithWin} from './userStatsUtils.js';
 import {logEventWithWordsLabel} from './loggingUtils.js';
